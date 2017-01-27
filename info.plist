@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.cbaclig.espnplayerrater</string>
 	<key>connections</key>
 	<dict>
 		<key>2CB2CF5E-55E9-41E6-A3FC-C3AD6028CA8B</key>
@@ -47,7 +47,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Chris Baclig</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -56,6 +56,25 @@
 	<string>ESPN FBA Player Rater</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>651C7000-BC68-415A-87B3-A9FDB3B27558</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -145,25 +164,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>651C7000-BC68-415A-87B3-A9FDB3B27558</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>variables</key>
@@ -181,11 +181,10 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Alfred's Script Filter object is extremely powerful, and gives you control over the results displayed in Alfred.
+	<string>ESPN Player Rater Workflow
 
-Alfred 3 now supports JSON, which is the recommended format. XML is also supported for legacy Alfred 2 workflows, and has been updated to include the new features.
-
-A new option now exists for Script Filters, "Alfred filters results". This allows you to return a whole list of results, let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
+Supported sports:
+Fantasy Basketball</string>
 	<key>uidata</key>
 	<dict>
 		<key>2CB2CF5E-55E9-41E6-A3FC-C3AD6028CA8B</key>
@@ -218,8 +217,8 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0</string>
+	<string>0.1.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/cbaclig</string>
 </dict>
 </plist>
